@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* customDark: '#1C1C1C',
+customGray: '#252525',
+customGreen: '#4E6868',
+customBlue: '#013780', */
+
+.theme-black {
+    --primary: #1c1c1c;
+    --primary-bg: #141414;
+    --focus-color: #e2b454;
+    --focus-bg: #252525;
+    --btn-bg: #252525;
+}
+
+.theme-blue {
+    --primary: #013780;
+    --primary-bg:rgb(4, 43, 94);
+    --focus-color: white;
+    --focus-bg: #bf150f;
+    --btn-bg: #666666;
+}
